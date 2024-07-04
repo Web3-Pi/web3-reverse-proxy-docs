@@ -39,10 +39,10 @@ It is safe to delete this file when the proxy is down in order to clear stats an
 ## Admin panel
 
 When the proxy is started, the access url to the admin panel is generated.
-Check logs and grep the line
+Check logs and grep the line that looks like this
 ```
 Access admin portal with:
 http://0.0.0.0:6561/?token=DJQPiFYBAks9n2vedLIXLtvUu3kuTe60
 ```
-Update the address part in the url. 
-Note that the access token may change in the next run.
+Update the address part `0.0.0.0` in the url according to your network configuration if necessary.
+Note that the access token may change in the next run of the proxy.

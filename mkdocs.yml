@@ -47,6 +47,8 @@ nav:
   - Installation: 'installation.md'
   - Configuration and Monitoring: 
     - Configuration: 'configuration.md'
+    - Admin Panel: 'admin.md'
+    - Public Service: 'public.md'
   - Downloads: 'downloads.md'
 
 
