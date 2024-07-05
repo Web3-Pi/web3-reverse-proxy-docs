@@ -1,14 +1,14 @@
-# Web3-Pi Proxy
+# Node Manager
 
-Manage multiple Ethereum nodes with Web3-Pi Proxy, 
+Manage multiple Ethereum nodes with Node Manager, 
 a powerful tool that offers out-of-the-box features such as enhanced availability through redundancy or detailed usage statistics and control via a web-based interface. 
 
-Basically, It is a http proxy to handle Ethereum RPC calls and forward them to connected Ethereum nodes.
-Written in Python can be run on any capable machine, including virtualization and Raspberry-Pi.
-So from the clients perspective it can act as a powerful Ethereum RPC endpoint.
+It is an HTTP proxy that handles Ethereum RPC calls and forwards them to connected Ethereum nodes. 
+It can act as a highly capable Ethereum RPC endpoint. 
+Written in Python, it can be run on any suitable machine, including virtualisation and Raspberry Pi.
 
-Note that it is an optional element of Web3-Pi ifrastructure - 
-it is used to organize and manage access to Web3-Pi and not Web3_pi Ethereum nodes.
+Note: The Web3 Pi Node Manager is a tool that can be used to organize and manage access to Ethereum nodes configured based on Web3 Pi Node Setup, as well as any other Ethereum node.
 
-Note that Web3-Pi proxy is in the Alpha version and some features are still under construction.
+*Web3 Pi Node Manager is in the Alpha version and some features are still under construction.*
 
+**Next Steps**: [install](installation.md), [connect nodes](configuration.md#ethereum-nodes) and [manage access](admin.md).

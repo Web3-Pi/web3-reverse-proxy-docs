@@ -1,10 +1,10 @@
 # Project information
-site_name: Web3-Pi Proxy
+site_name: Node Manager
 site_url: https://setup-guide.web3pi.io/
 #site_author: Robert Mordzon
 
 # Repository
-repo_name: Web3-Pi Proxy
+repo_name: Node Manager
 repo_url: https://github.com/Web3-Pi/web3-reverse-proxy
 
 theme:
@@ -43,7 +43,7 @@ theme:
 
 nav:
   - About:
-    - Web3-Pi Proxy: 'index.md'
+    - Node Manager: 'index.md'
   - Installation: 'installation.md'
   - Configuration and Monitoring: 
     - Configuration: 'configuration.md'
