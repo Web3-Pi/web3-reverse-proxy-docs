@@ -1,6 +1,6 @@
 ## Requirements
 
-To run the proxy, python is required
+To run the proxy, `python` is required
 
 ```
 python >= 3.10
@@ -8,9 +8,11 @@ python >= 3.10
 
 ## Installation
 
-You may wish to use venv
+At first create a data directory for Web3 Pi proxy instance and change the working directory to it.
+
+You may wish preferably to use `venv`
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 
