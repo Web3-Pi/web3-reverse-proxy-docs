@@ -3,7 +3,7 @@
 To run the proxy, python is required
 
 ```
-python = "^3.10"
+python >= 3.10
 ```
 
 ## Installation
@@ -17,7 +17,7 @@ source venv/bin/activate
 Get latest version from pypi
 
 ```
-pip install --extra-index-url https://test.pypi.org/simple/ web3pi-proxy
+pip install web3pi-proxy
 ```
 
 ## Run
