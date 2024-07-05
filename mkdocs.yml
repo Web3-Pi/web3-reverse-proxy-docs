@@ -1,7 +1,6 @@
 # Project information
 site_name: Node Manager
-site_url: https://setup-guide.web3pi.io/
-#site_author: Robert Mordzon
+site_url: https://docs.proxy.web3pi.io/
 
 # Repository
 repo_name: Node Manager
