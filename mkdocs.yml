@@ -48,6 +48,7 @@ nav:
     - Configuration: 'configuration.md'
     - Admin Panel: 'admin.md'
     - Public Service: 'public.md'
+    - Proxy Data: 'state.md'
   - Downloads: 'downloads.md'
 
 
