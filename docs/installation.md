@@ -57,8 +57,9 @@ Get latest version from pypi
 
 ## Configuration
 
-Before running, a basic configuration with Ethereum nodes addresses needs to be provided.
+Before running for the first time, a basic configuration with Ethereum nodes addresses needs to be provided.
 For more options and further details see [Configuration and Monitoring](configuration.md#ethereum-nodes).
+Here is simple configuration that allows the proxy to run.
 
 Create the file `.env`. Note the the file name must be exactly `.env`.
 
@@ -67,8 +68,9 @@ Create the file `.env`. Note the the file name must be exactly `.env`.
 ```
 
 Edit the file with an editor of your preference, and provide variable/value records.
-To connect nodes, the variable `ETH_ENDPOINTS` needs to be set.
-A basic example of `.env` file content.
+In simple configuration only the variable `ETH_ENDPOINTS` needs to be set.
+It lists Ethereum nodes to be connected.
+A basic example of `.env` file content is as follows.
 
 ```bash
 (venv) user@host:~/web3pi$ cat .env
@@ -76,8 +78,8 @@ ETH_ENDPOINTS='[{"name": "my_node", "url": "http://192.168.1.90:8545/"}]'
 ```
 
 Remember that the value of `ETH_ENDPOINTS` must be a valid json. 
-There is the array of objects, each describing one Ethereum node with 
-arbitrary but distinct `name` (pick one you like) and `url` which is an RPC endpoint.
+Furthermore, this is an array of objects, each describing one Ethereum node with 
+arbitrary but distinct `name` (pick one you like) and `url` which is an RPC endpoint of Ethereum node.
 
 ## Run
 
