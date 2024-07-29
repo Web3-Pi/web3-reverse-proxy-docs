@@ -8,28 +8,72 @@ python >= 3.10
 
 ## Installation
 
-At first create a data directory for Web3 Pi proxy instance and change the working directory to it.
+Before proceeding further, verify the python's version. Should be at least `3.10`.
 
-You may wish preferably to use `venv`
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+user@host:~$ python3 --version
+```
+
+At first create a data directory for Web3 Pi proxy instance and change the working directory to it.
+For the purposes of demonstration assume that the data directory is `web3pi` in the user's home folder.
+Then the example commands are
+
+```bash
+user@host:~$ mkdir web3pi
+user@host:~$ cd web3pi
+user@host:~/web3pi$
+```
+
+You may wish preferably to use a python's virtual environment `venv`. 
+Note that this is optional.
+For example, create a virtual environment `venv`.
+```bash
+user@host:~/web3pi$ python3 -m venv venv
+```
+
+The folder `venv` is created in the place. Now activate the virtual environment.
+
+```bash
+user@host:~/web3pi$ source venv/bin/activate
+(venv) user@host:~/web3pi$
 ```
 
 Get latest version from pypi
 
+```bash
+(venv) user@host:~/web3pi$ pip install web3pi-proxy
 ```
-pip install web3pi-proxy
+
+## Configuration
+
+Before running, a basic configuration with Ethereum nodes addresses needs to be provided.
+For more options and further details see [Configuration and Monitoring](configuration.md#ethereum-nodes).
+
+Create the file `.env`. Note the the file name must be exactly `.env`.
+
+```bash
+(venv) user@host:~/web3pi$ touch .env
 ```
+
+Edit the file with an editor of your preference, and provide variable/value records.
+To connect nodes, the variable `ETH_ENDPOINTS` needs to be set.
+A basic example of `.env` file content.
+
+```bash
+(venv) user@host:~/web3pi$ cat .env
+ETH_ENDPOINTS='[{"name": "my_node", "url": "http://192.168.1.90:8545/"}]'
+```
+
+Remember that the value of `ETH_ENDPOINTS` must be a valid json. 
+There is the array of objects, each describing one Ethereum node with 
+arbitrary but distinct `name` (pick one you like) and `url` which is an RPC endpoint.
 
 ## Run
 
-Before running, provide configuration file `.env`, see Configuration and Monitoring.
-
 Simply execute
 
-```
-web3pi-proxy
+```bash
+(venv) user@host:~/web3pi$ web3pi-proxy
 ```
 
 Note that the state data is persisted in the file
@@ -40,7 +84,7 @@ It is safe to delete this file when the proxy is down in order to clear stats an
 
 ## Admin panel
 
-When the proxy is started, the access url to the admin panel is generated.
+When the proxy is up, the access url to the admin panel is generated.
 Check logs and grep the line that looks like this
 ```
 Access admin portal with:

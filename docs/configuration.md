@@ -9,11 +9,11 @@ Any environment record in the file overrides the default value.
 ## Ethereum nodes
 
 The list of connected Ethereum nodes are to be passed in the `.env`, an example of the `.env` file
-```
+```text
 ETH_ENDPOINTS='[{"name": "rpi5", "url": "http://192.168.1.90:8545/"}, {"name": "rpi4", "url": "http://192.168.1.224:8545/"} ]'
 ```
 or via the environment variable, an example
-```
+```bash
 ETH_ENDPOINTS='[{"name": "rpi5", "url": "http://192.168.1.90:8545/"}, {"name": "rpi4", "url": "http://192.168.1.224:8545/"} ]' web3pi-proxy
 ```
 
@@ -25,19 +25,19 @@ Endpoints are to be any valid Ethereum RPC services, not necessary Web3-Pi insta
 ## Ports and Addresses
 
 Modify the proxy addresses with the following records
-```
+```text
 PROXY_LISTEN_ADDRESS='0.0.0.0'
 PROXY_LISTEN_PORT=6512
 ADMIN_LISTEN_PORT=6561
 ```
 
 To initialize UPnP set
-```
+```text
 USE_UPNP='True'
 ```
 
 To use SSL set
-```
+```text
 SSL_ENABLED=True
 SSL_CERT_FILE='cert.pem'
 SSL_KEY_FILE='key.pem'
