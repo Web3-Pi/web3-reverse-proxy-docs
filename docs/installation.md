@@ -89,7 +89,9 @@ Ctrl+C (`SIGTERM`) shuts down the proxy.
 
 ## Admin panel
 
-When the proxy is up, the access url to the admin panel is generated.
+When the proxy is up, you can check it in the admin panel.
+Here is a short instruction how to open.
+The access url to the admin panel is generated at the start of proxy.
 Check logs and grep the line that looks like this
 ```
 Access admin portal with:
@@ -99,4 +101,4 @@ Update the address part `0.0.0.0` in the url according to your network configura
 The excerpt above is an example, use a token that is actually included in your logs.
 Note that the access token may change in the next run of the proxy.
 
-See [Admin Panel](admin.md) for further details.
+See [Admin Panel](admin.md) for details.
