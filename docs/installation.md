@@ -11,11 +11,7 @@ Windows instalation needs further examination.
 
 ## Requirements
 
-To run the proxy, `python` is required
-
-```
-python >= 3.10
-```
+To run the proxy, `python >= 3.10` is required
 
 ## Installation
 
