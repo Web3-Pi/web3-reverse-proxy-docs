@@ -1,5 +1,5 @@
 
-Web3Pi Proxy persists state data like usage stats and settings between runs.
+Web3 Reverse Proxy persists state data like usage stats and settings between runs.
 In the place that the proxy is run a data file is created.
 ```
 .w3appdata/web3pi_proxy.sqlite3

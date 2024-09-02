@@ -1,10 +1,10 @@
-The Web3Pi Proxy is independent sofware to Web3Pi nodes and othere Ethereum nodes.
+The Web3 Proxy is independent sofware to Web3 Pi nodes and othere Ethereum nodes.
 It can be installed on any machine that can directly or via tunnels 
 connect to your Ethereum nodes. 
 There is no restriction if hardware parameters are sufficent - 
 and this is satisfied in most cases since the proxy is lightweight.
 For instance it can be installed on PC, a dedicated 
-RaspberryPi, or collocated with one of Ethereum nodes.
+Raspberry Pi, or collocated with one of Ethereum nodes.
 
 The instruction is provided for Linux. 
 Windows instalation needs further examination.
@@ -21,7 +21,7 @@ Before proceeding further, verify the python's version. Should be at least `3.10
 user@host:~$ python3 --version
 ```
 
-At first create a data directory for Web3 Pi proxy instance and change the working directory to it.
+At first create a data directory for Web3 Proxy instance and change the working directory to it.
 For the purposes of demonstration assume that the data directory is `web3pi` in the user's home folder.
 Then the example commands are
 

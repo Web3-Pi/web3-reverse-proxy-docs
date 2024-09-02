@@ -3,7 +3,7 @@ This page describes primary configuration of the proxy.
 The default configuration can be overriden with `.env` file or environment variables.
 
 In order to provide file configuration, 
-create an empty file `.env` in the place of running the Web3 Pi proxy.
+create an empty file `.env` in the place of running the Web3 Reverse Proxy.
 Any environment record in the file overrides the default value.
 
 ## Ethereum nodes
@@ -20,7 +20,7 @@ ETH_ENDPOINTS='[{"name": "rpi5", "url": "http://192.168.1.90:8545/"}, {"name": "
 **Note that the value of `ETH_ENDPOINTS` must be a valid json**. 
 In case of startup errors double check this configuration.
 Names of endpoints are arbitrary.
-Endpoints are to be any valid Ethereum RPC services, not necessary Web3-Pi installation.
+Endpoints are to be any valid Ethereum RPC services, not necessary Web3 Pi installation.
 
 ## Ports and Addresses
 
