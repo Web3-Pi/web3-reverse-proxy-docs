@@ -1,6 +1,6 @@
-# Web3 Reverse Proxy
+# Web3 Proxy
 
-Manage multiple Ethereum nodes with Web3 Reverse Proxy, 
+Manage multiple Ethereum nodes with Web3 Proxy, 
 a powerful tool that offers out-of-the-box features such as enhanced availability through redundancy or detailed usage statistics and control via a web-based interface. 
 
 It is an HTTP proxy that handles Ethereum RPC calls and forwards them to connected Ethereum nodes. 
