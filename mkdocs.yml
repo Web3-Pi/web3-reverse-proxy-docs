@@ -1,9 +1,9 @@
 # Project information
-site_name: Web3 Proxy
+site_name: RPC Reverse Proxy
 site_url: https://docs.proxy.web3pi.io/
 
 # Repository
-repo_name: Web3 Proxy
+repo_name: RPC Reverse Proxy
 repo_url: https://github.com/Web3-Pi/web3-reverse-proxy
 
 theme:
@@ -42,7 +42,7 @@ theme:
 
 nav:
   - About:
-    - Web3 Proxy: 'index.md'
+    - RPC Reverse Proxy: 'index.md'
   - Installation: 'installation.md'
   - Configuration and Monitoring: 
     - Configuration: 'configuration.md'

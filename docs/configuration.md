@@ -3,7 +3,7 @@ This page describes primary configuration of the proxy.
 The default configuration can be overriden with `.env` file or environment variables.
 
 In order to provide file configuration, 
-create an empty file `.env` in the place of running the Web3 Proxy.
+create an empty file `.env` in the place of running the RPC Reverse Proxy.
 Any environment record in the file overrides the default value.
 
 ## Ethereum nodes
