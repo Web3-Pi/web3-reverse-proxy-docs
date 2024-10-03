@@ -47,6 +47,7 @@ nav:
   - Configuration and Monitoring: 
     - Configuration: 'configuration.md'
     - Admin Panel: 'admin.md'
+    - Wallets: 'wallet.md'
     - Public Service: 'public.md'
     - Proxy Data: 'state.md'
   - Downloads: 'downloads.md'
