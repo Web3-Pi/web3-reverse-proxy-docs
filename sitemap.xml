@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://docs.proxy.web3pi.io/</loc>
+         <lastmod>2024-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.proxy.web3pi.io/admin/</loc>
+         <lastmod>2024-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.proxy.web3pi.io/configuration/</loc>
+         <lastmod>2024-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.proxy.web3pi.io/downloads/</loc>
+         <lastmod>2024-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.proxy.web3pi.io/installation/</loc>
+         <lastmod>2024-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.proxy.web3pi.io/public/</loc>
+         <lastmod>2024-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.proxy.web3pi.io/state/</loc>
+         <lastmod>2024-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.proxy.web3pi.io/wallet/</loc>
+         <lastmod>2024-10-06</lastmod>
+    </url>
+</urlset>
